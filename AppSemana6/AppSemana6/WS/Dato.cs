@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using Xamarin.Forms;
+
+namespace AppSemana6.WS
+{
+    class Dato : ContentPage
+    {
+        public int codigo { get; set; }
+
+        public string nombre { get; set; }
+
+        public string apellido { get; set; }
+
+        public int edad { get; set; }
+    }
+}

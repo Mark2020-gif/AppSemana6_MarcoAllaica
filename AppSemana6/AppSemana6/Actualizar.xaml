@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSemana6.Actualizar"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+
+                <Entry x:Name="txtCodigo" Placeholder="Ingrese Codigo" Keyboard="Numeric" ></Entry>
+                <Entry x:Name="txtNombre" Placeholder="Ingrese nombre" ></Entry>
+                <Entry x:Name="txtApellido" Placeholder="Ingrese apellido" ></Entry>
+                <Entry x:Name="txtEdad" Placeholder="Ingrese edad" Keyboard="Numeric" ></Entry>
+
+
+
+                <Button x:Name="btnActualizar" Text="Actualizar" BackgroundColor="#2196F3" TextColor="White" CornerRadius="10" Clicked="btnActualizar_Clicked" ></Button>
+                <Button x:Name="btnRegresar" Text="Regresar" BackgroundColor="#2196F3" TextColor="White" CornerRadius="10" Clicked="btnRegresar_Clicked" ></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
